@@ -8,7 +8,7 @@
 
 2. Put it into _compile/target/Developer.ipa
 
-3. Grab pwnify_compiled from Fugu14 repo (https://github.com/LinusHenze/Fugu14/blob/master/tools/pwnify_compiled), sign it using codesign (`codesign -s - <path/to/pwnify_compiled>`) and put it at _compile/pwnify_compiled
+3. Grab pwnify_compiled from Fugu14 repo (https://github.com/LinusHenze/Fugu14/blob/master/tools/pwnify_compiled), sign it using codesign (`codesign -f -s - <path/to/pwnify_compiled>`) and put it at _compile/pwnify_compiled
 
 4. Make sure you have Procursus ldid installed and added to your path! (https://github.com/ProcursusTeam/ldid)
 
